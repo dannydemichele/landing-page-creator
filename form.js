@@ -142,7 +142,8 @@ function validateContactForm() {
 
 You are using your two decades of experience in writing sales landing page content in the industry related to ${field1}. While I dont want it to specifically reference the target audience, just know that ${field2} is the target audience to create a website landing page for that will be specifically targeted to these people.
 
-I have outlined all of the sections and details in to create this landing page in the [ContentNeeded] Section below. All the content that I supply you is for inspiration, not to use exactly by word unless you feel its important. Please give me back all of the sections below in order in a single answer.
+I have outlined all of the sections and details in to create this landing page in the [ContentNeeded] Section below. All the content that I supply you is for inspiration, not to use exactly by word unless you feel its important.
+Primary output: The primary output should be a landing page provided to me in its entirety using the sections in [contentneeded] section.
 
 ContentNeeded = 
 1. title / H1 Headline option = utilize this as your base for this ${field6}
