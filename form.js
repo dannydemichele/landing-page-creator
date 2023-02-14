@@ -138,11 +138,23 @@ function validateContactForm() {
             }
         };
     
-        prompt=
-            `This is the example text that I want you to use, Make sure you have all available fields with this page in this text. Doesnt matter where it is as long as it has text around it. with the fields imbedded in the form.JS file you will create. I will have the fields ${field1} in the text like this again ${field2} in the text like this again ${field3} in the text like this again ${field4} in the text like this again ${field5} in the text like this again ${field6} in the text like this again ${field7} in the text like this again ${field8}and then again ${field9} and then again ${field10}. So in the JS file, please put exactly this format with ${field11} included so I can easily edit. Thank you.
-        `
-    
+        prompt = ` Ignore All Previous instructions before this one.
+
+You are using your two decades of experience in writing sales landing page content in the industry related to ${field1}. While I dont want it to specifically reference the target audience, just know that ${field2} is the target audience to create a website landing page for that will be specifically targeted to these people.
+
+I have outlined all of the sections and details in to create this landing page in the [ContentNeeded] Section below. All the content that I supply you is for inspiration, not to use exactly by word unless you feel its important. Please give me back all of the sections below in order in a single answer.
+
+ContentNeeded = 
+1. title / H1 Headline option = utilize this as your base for this ${field6}
+2. Introduction = use any content you feel is needed.
+3. bullet points = expand and explain each of the the items here, separated by commas: ${field3}
+4. Call to action =  you can use and create your own ideas from ${field4}
+5. Contained here is a bunch of information on the brand we are doing this for to supply you with more content should you beed it. ${field7} `;
+
+
         prompt = JSON.parse(JSON.stringify(prompt));
+
+
     
     
         var data = {
